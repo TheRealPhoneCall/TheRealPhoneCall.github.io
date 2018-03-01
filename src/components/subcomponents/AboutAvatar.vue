@@ -24,7 +24,7 @@
   export default {
     data: () => ({  
       fullName: 'Daryl Pongcol',
-      size: '200px',
+      size: '250px',
       tile: false      
     })
   }

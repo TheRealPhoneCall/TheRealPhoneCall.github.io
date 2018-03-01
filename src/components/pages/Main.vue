@@ -1,8 +1,10 @@
 <template>
   <v-container>
     <about-avatar></about-avatar>
+    <br/>
+    <br/>
     <portfolio></portfolio>
-    <!-- <blog></blog> -->
+    <blog></blog>
   </v-container>
 </template>
 
@@ -13,7 +15,8 @@
 
   export default {
     components: {
-      AboutAvatar, Portfolio, //Blog,
-    }
+      AboutAvatar, Portfolio, Blog,
+    },
+
   }
 </script>

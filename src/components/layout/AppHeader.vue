@@ -1,8 +1,8 @@
 <template>
-  <v-toolbar dark>
+  <v-toolbar dark extended>
     <v-toolbar-title v-text="title"></v-toolbar-title>
-    <v-spacer></v-spacer>
-    <v-toolbar-items class="hidden-xs-only">
+    
+    <v-toolbar-items class="hidden-xs-only" slot="extension">
       <v-btn
           flat
           v-for="item in menuItems"
